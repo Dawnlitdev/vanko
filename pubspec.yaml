@@ -1,0 +1,34 @@
+name: vanko
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+  path: ^1.9.0
+  share_plus: ^10.0.2
+  shared_preferences: ^2.3.2
+  sqflite: ^2.3.3+1
+  url_launcher: ^6.3.0
+  flutter_launcher_icons: ^0.13.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/sql/initial_data.sql
+    - assets/images/logo.jpg
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/logo.jpg" # Path to your new app icon
